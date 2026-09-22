@@ -1,0 +1,1 @@
+# hash table the search is O(1) as it uses a hash function to converts a key into a number/index and stores the value at that location. when needed to search for a value using a key we simply get the index of the stored key-value pair and then retrieve the key-value pair from that index
