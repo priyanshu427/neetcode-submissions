@@ -1,0 +1,19 @@
+When to build from scratch (Mental Model phase):
+
+Linked Lists: You must write the basic Node class with self.next and practice pointer reversals manually, because LeetCode passes you custom ListNode objects, not Python lists.
+
+Binary Search Trees (BST) & Binary Trees: You must build a TreeNode with left and right pointers once so recursion and tree traversals (pre-order, in-order, post-order) make sense.
+
+Graphs (Adjacency List): You should know how to represent edges using a dictionary of lists (graph = defaultdict(list)).
+
+When to understand conceptually and skip the scratch build:
+
+Linear Probing / Hash Tables: You already did this. You know the mechanics. Never code it from scratch again—use dict and set().
+
+Complex Self-Balancing Trees (AVL Trees / Red-Black Trees): Timestamp 04:22:37 in that video covers AVL trees. Do not implement this from scratch. Interviewers will never ask you to code an AVL tree rotation in Python. Just know they guarantee O(logn) height.   ￼
+PNG
+
+Heaps / Priority Queues: Understand that a min-heap maintains the smallest element at the root in O(logn) insertion/deletion. Never build a binary heap array manually; use Python’s built-in heapq module.
+
+Tries: Build it once when you reach the Trie section on NeetCode, because Trie problems on LeetCode require writing the insert and search class methods directly.
+
